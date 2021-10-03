@@ -188,14 +188,14 @@ bash_prompt() {
 	## Choose your color combination here                                     ##
 	############################################################################
 	local FONT_COLOR_1=$WHITE
-	local BACKGROUND_1=$BLUE
+	local BACKGROUND_1=$MAGENTA
 	local TEXTEFFECT_1=$BOLD
 	
 	local FONT_COLOR_2=$WHITE
-	local BACKGROUND_2=$L_BLUE
+	local BACKGROUND_2=$L_MAGENTA
 	local TEXTEFFECT_2=$BOLD
 	
-	local FONT_COLOR_3=$D_GRAY
+	local FONT_COLOR_3=$L_GREEN
 	local BACKGROUND_3=$WHITE
 	local TEXTEFFECT_3=$BOLD
 	
@@ -341,7 +341,7 @@ bash_prompt() {
 	## BASH PROMT                                                             ##
 	## Generate promt and remove format from the rest                         ##
 	############################################################################
-	PS1="$TITLEBAR\n${PROMT_USER}${SEPARATOR_1}${PROMT_HOST}${SEPARATOR_2}${PROMT_PWD}${SEPARATOR_3}${PROMT_INPUT}"
+	PS1="$TITLEBAR${PROMT_USER}${SEPARATOR_2}${PROMT_PWD}${SEPARATOR_3}${PROMT_INPUT}"
 
 	
 
