@@ -14,6 +14,14 @@ Hasura QS: https://hasura.io/docs/latest/graphql/core/getting-started/docker-sim
 
 Hasura Docker-compose file: https://raw.githubusercontent.com/hasura/graphql-engine/stable/install-manifests/docker-compose/docker-compose.yaml
 
+=== Running the Container
+
+[source,bash]
+----
+docker-compose up             # To run it streaming logs
+docker-compose up -d          # Runs the container in detached mode
+----
+
 === Install hasura CLI
 
 Hasura CLI Download: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjkjZ78-I_1AhXpRWwGHQuIDYIQFnoECA0QAQ&url=https%3A%2F%2Fhasura.io%2Fdocs%2Flatest%2Fgraphql%2Fcore%2Fhasura-cli%2Finstall-hasura-cli.html&usg=AOvVaw05m-YE3j1LsOAEeY0RqTjU
