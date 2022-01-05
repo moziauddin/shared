@@ -1,6 +1,8 @@
 == Links from Hasura overview video
 
-=== Docker and Docker Compose isntallation
+This page contains all the links from the youtube video "#hasura #docker #graphql Get Started With Hasura in 20 mins in 2022"
+
+=== Docker and Docker Compose installation
 
 Docker Link : https://docs.docker.com/get-started/#download-and-install-docker
 
