@@ -1,1 +1,9 @@
+== Introduction video
 
+Important links discussed in the video.
+
+. https://micronaut.io/[Micronaut Website]
+. https://micronaut.io/docs/[Micronaut Docs Home]
+. https://micronaut.io/guides/[Micronaut Guides Home]
+. https://micronaut.io/download/[Micronaut Download Page]
+. https://micronaut.io/launch/[Micronaut Launch]
