@@ -2,6 +2,8 @@
 
 Important links discussed in the video.
 
+Micronaut is a modern, JVM-based, full-stack framework to build modular, easily testable microservice and serverless applications. 
+
 . https://micronaut.io/[Micronaut Website]
 . https://micronaut.io/docs/[Micronaut Docs Home]
 . https://micronaut.io/guides/[Micronaut Guides Home]
