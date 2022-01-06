@@ -7,3 +7,5 @@ Important links discussed in the video.
 . https://micronaut.io/guides/[Micronaut Guides Home]
 . https://micronaut.io/download/[Micronaut Download Page]
 . https://micronaut.io/launch/[Micronaut Launch]
+. https://micronaut.io/blog/[Micronaut blog]
+. https://micronaut.io/blog/[Micronaut Podcast]
