@@ -1,0 +1,19 @@
+== Create a project using micronaut cli
+
+=== Links
+
+. https://sdkman.io/install[SDKMAN install]
+. https://micronaut.io/launch[Micronaut Launch]
+
+=== Commands
+
+[source,bash]
+----
+## Installing micronaut using sdk
+sdk version
+sdk list micronaut
+sdk install micronaut 3.2.4
+
+## Create Micronaut project
+mn create-app --jdk=11 --build=gradle --lang=groovy --test=spock com.moziauddin.sample1
+----
