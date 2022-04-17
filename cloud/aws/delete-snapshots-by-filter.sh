@@ -9,12 +9,13 @@ if [[ -z $1 && -z $2 ]]; then
 	echo ""
 	echo " ERROR: Please pass the filter attribute as first argument and its value as second with wild card"
 	echo "    Example: ./delete-old-snapshots.sh 'start-time' '2016*'"
-    echo "    to delete all snapshots matching deleteOn date of Jan 2021"
+        echo "    to delete all snapshots matching deleteOn date of Jan 2021"
 	echo ""
 	exit 1
 fi
 echo "Proceed with caution!"
 echo "Once deleted, snapshots cannot be recovered"
+echo "UNCOMMENT line 28 to actually delete"
 snap_ids=$(aws ec2 describe-snapshots --filters Name=$1,Values=$2 | jq .Snapshots[].SnapshotId)
 matched=$(echo $snap_ids | wc -w)
 echo "Matched Snapshots: "$matched
