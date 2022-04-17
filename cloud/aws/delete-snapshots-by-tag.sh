@@ -13,6 +13,10 @@ if [[ -z $1 ]]; then
 	echo ""
 	exit 1
 fi
+
+echo "PROCEED WITH CAUTION!!"
+echo "Once deleted, snapshots cannot be recovered"
+
 snap_ids=$(aws ec2 describe-snapshots --filters Name=tag:DeleteOn,Values=$1 | jq .Snapshots[].SnapshotId)
 matched=$(echo $snap_ids | wc -w)
 echo "Matched Snapshots: "$matched
